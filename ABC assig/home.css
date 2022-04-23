@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box; 
+	/* if you use border box, you will not have to worry about the border size, padding */
+}
+
+/* =========== Header Styling ================= */
+/* Menu Container */
+.navContainer {
+	background-color: lightgrey;
+	color: black;
+	/*width: 1000px;*/
+}
+
+.navContainer a {
+	text-decoration: none;
+	font-family:'Arial, Helvetica, sans-serif';
+	font-size:120%;
+	color: black;
+}
+
+.navContainer a:hover {
+	background-color: blue;
+	color: white;
+}
+
+/* Horizontal Menu Bar */
+.horizMenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.horizMenu li {
+	display: inline;
+	padding: 20px;
+}
+
+
+.headerFlex {
+	/* flex container propoerties start here */
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: baseline;	
+	/* flex container propoerties end here */
+	background-color: lightgrey;
+}
+
+.headerPhone {
+	align-self: flex-start;
+}
+
+.headerPhone p {
+	font-size: 130%;
+	font-weight: bold;
+	color: maroon;
+	padding: 0px;
+}
+
+
+/* =========== Main Section Styling ================= */
+section h1, section h4, section div {
+	text-align: center;
+}
+
+/* =========== Footer Styling ================= */
+section {
+	min-height: 400px;
+}
+.footerFlex {
+	/* flex container propoerties start here */
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;	
+	/* flex container propoerties end here */
+	background-color: black;
+}
+
+.footerFlex div {
+	color: white;
+}
+
+footer div {
+	text-align: center;
+	background-color: black;
+	color: lightgray;
+}
+section div img
+{
+	
+padding: 10px;
+}

@@ -1,0 +1,16 @@
+section table {
+	margin: auto;
+}
+
+#submitRow {
+	text-align: center;
+}
+
+table, tr, td {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+}
